@@ -28,11 +28,6 @@
 * HTML / CSS / JavaScript
 * JSP
 
-### 기타
-
-* Git / GitHub
-* Docker (배포 예정)
-
 ---
 
 ## 📂 주요 기능
