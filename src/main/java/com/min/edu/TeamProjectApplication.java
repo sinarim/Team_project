@@ -10,6 +10,7 @@ public class TeamProjectApplication {
         // 이 한 줄이 스프링 부트를 실행하고 DB 연결을 시도합니다.
         SpringApplication.run(TeamProjectApplication.class, args);
         
-        System.out.println("★ 스마트 금융 시스템 서버 시작됨! ★");
+        System.out.println("★ 서버 시작됨! ★");
     }
 }
+
