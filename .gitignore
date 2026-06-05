@@ -1,0 +1,91 @@
+# ═════════════════════════════════════
+# Python / Logi 에이전트 관련
+# ═════════════════════════════════════
+
+# 가상환경 (절대 올리지 않음 - 용량 큼)
+venv/
+.venv/
+env/
+
+# Python 컴파일 캐시
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경변수 파일 (절대 올리지 않음 - 비밀번호 포함!)
+.env
+.env.local
+.env.*.local
+
+# Python 패키지 빌드 결과
+*.egg-info/
+dist/
+build/
+
+
+# ═════════════════════════════════════
+# Java / Spring Boot 관련 (팀원 코드)
+# ═════════════════════════════════════
+
+# 빌드 결과물
+target/
+build/
+*.class
+*.jar
+*.war
+
+# Maven / Gradle
+.mvn/
+.gradle/
+
+# Spring Boot 설정 (비밀번호 들어있으면)
+# application.properties   ← 이 줄은 팀과 상의 후 결정
+
+
+# ═════════════════════════════════════
+# IDE 설정 파일
+# ═════════════════════════════════════
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Eclipse
+.project
+.classpath
+.settings/
+.metadata/
+bin/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ═════════════════════════════════════
+# OS 자동 생성 파일
+# ═════════════════════════════════════
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# macOS
+.DS_Store
+
+# Linux
+*~
+
+
+# ═════════════════════════════════════
+# 로그 / 임시 파일
+# ═════════════════════════════════════
+
+*.log
+logs/
+tmp/
+*.tmp
+*.swp
