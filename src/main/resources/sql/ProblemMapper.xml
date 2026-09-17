@@ -11,9 +11,10 @@
             type, 
             difficulty, 
             category, 
-            source
+            source,
+            problem_number
         FROM problems
-        ORDER BY difficulty ASC
+        ORDER BY problem_number ASC
     </select>
 
 </mapper>
